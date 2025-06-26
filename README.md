@@ -36,10 +36,10 @@ Set-ExecutionPolicy Bypass -Scope Process
 1. Place all your `.STEP` files inside the `Input` folder.
 2. Open PowerShell and run the following command:
 ```powershell
-   powershell -ExecutionPolicy Bypass -File convert-auto-detect.ps1
+   powershell -ExecutionPolicy Bypass -File convert_step_to_sldprt_sldasm.ps1
 ```
 3. The script will:
-    -. Open SOLIDWORKS in the background
-    -. Detect file type (Part or Assembly)
-    -. Convert and save each file into the Output folder
-    -. Automatically close SOLIDWORKS after conversion
+    - Open SOLIDWORKS in the background
+    - Detect file type (Part or Assembly)
+    - Convert and save each file into the Output folder
+    - Automatically close SOLIDWORKS after conversion
